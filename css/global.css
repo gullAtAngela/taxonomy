@@ -1,0 +1,114 @@
+/******************************************************************
+		
+		Name: style.css
+		Description: Overview to all snippets i've created
+		Author: Thomas Gull
+		Author URI: gulldesign.ch
+		Version: v2.0
+		Release: 2014-05-08
+		License: Public Licence
+
+******************************************************************/
+/*------------------------------------------------------------------------------
+  BASE INFORMATIONS
+------------------------------------------------------------------------------*/
+body { font-family: "Helvetia Neue", Helvetica, Arial, sans-serif; }
+
+.uppercase { text-transform: uppercase; text-align: center; }
+
+.wrapper {
+	margin-top: 2%;
+	padding-bottom: 260px;
+}
+
+.blue {	color: rgba(0, 123, 192, 1); }
+
+/*------------------------------------------------------------------------------
+  SNIPPET OVERVIEW
+------------------------------------------------------------------------------*/
+.description {
+	background-color: #eee;
+	min-height: 230px;
+	padding: 12px 15px 2px 15px
+}
+
+.overviewTitle {
+	margin-top: 10px;
+}
+
+/*------------------------------------------------------------------------------
+  BUTTONS
+------------------------------------------------------------------------------*/
+a.button { background-color: rgba(0, 123, 192, 1); }
+a.button:hover { background-color: rgba(0, 103, 172, 1); }
+
+div.snippet a.button {
+	position: relative;
+	bottom: 0;
+	right: 0;
+}
+
+div.snippet a.button.next:after {
+	content: "\f054";
+	font-family: "FontAwesome";
+	margin-left: 6px;
+}
+
+div.control a.button.home {
+	position: absolute;
+	top: 0;
+	right: 20px;
+}
+
+/*------------------------------------------------------------------------------
+  FOOTER
+------------------------------------------------------------------------------*/
+footer {
+	position: relative;
+	bottom: 0px;
+	background-color: #222;
+	box-shadow: 1px 4px 5px #aaa;
+	min-height: 200px;
+	width: 100%;
+	color: #999;
+	padding-top: 20px;
+}
+
+footer address { color: #999; }
+
+footer span.copyright {
+	display: block;
+	margin-top: 40px;
+	font-size: .725em;
+	text-align: center;
+}
+
+footer h6 { color: #fff; }
+
+/*==============================================================================
+  MEDIA QUERIES
+==============================================================================*/
+/*------------------------------------------------------------------------------
+  PRINT
+------------------------------------------------------------------------------*/
+@media print {
+	
+}
+
+/*------------------------------------------------------------------------------
+  MOBILE
+------------------------------------------------------------------------------*/
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (max-width: 40em) {
+	
+}
+
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+	
+}
+
+/* min-width 1025px, large screens */
+@media only screen and (min-width: 64.063em) {
+		
+}
